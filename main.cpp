@@ -20,7 +20,7 @@ int main(int argc, char **argv){
     QLabel *label = new QLabel(&window);
 
     // path to map image file
-    QPixmap pixmap("/Users/anila/Documents/CMSC 447/QT_stuff/Maryland 2 Outline.gif");
+    QPixmap pixmap(":/md.jpg");
     label->setPixmap(pixmap.scaled(1000,600,Qt::KeepAspectRatio));
 
     // Creates the zoom out button
