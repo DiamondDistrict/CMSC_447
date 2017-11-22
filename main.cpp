@@ -7,6 +7,13 @@
 #include <QObject>
 #include <QGraphicsView>
 
+#include <iostream>
+
+// Called when spinbox value changes
+void changeDistrict(int i)
+{
+    std::cerr << i;
+}
 
 int main(int argc, char **argv){
 
@@ -48,6 +55,10 @@ int main(int argc, char **argv){
 
     selectDistrict->setGeometry(575, 575, 80, 30);
 
+    // attach code to valueChanged signal
+    QObject::connect(selectDistrict, static_cast<void(QSpinBox::*)(int)>(&QSpinBox::valueChanged),
+        [=](int i){ changeDistrict(i); });
+    
     // Creates the drop down box
     QComboBox *selectState = new QComboBox(&window);
     selectState->addItem("Maryland");
