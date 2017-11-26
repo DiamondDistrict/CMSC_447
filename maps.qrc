@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/maps">
+        <file>Maryland Blank.gif</file>
+        <file>North Carolina Blank.png</file>
+        <file>Wyoming Blank.gif</file>
+    </qresource>
+</RCC>
