@@ -35,7 +35,7 @@ public:
         label = new QLabel(MD_Twelve);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(0, 0, 700, 400));
-        label->setPixmap(QPixmap(QString::fromUtf8("Maryland 2 Outline.gif")));
+        label->setPixmap(QPixmap(QString::fromUtf8("MD12.png")));
         label->setScaledContents(true);
         zoomIn = new QPushButton(MD_Twelve);
         zoomIn->setObjectName(QStringLiteral("zoomIn"));

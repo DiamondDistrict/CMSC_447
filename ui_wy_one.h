@@ -35,7 +35,7 @@ public:
         label = new QLabel(WY_One);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(0, 0, 700, 400));
-        label->setPixmap(QPixmap(QString::fromUtf8("Wyoming Outline.gif")));
+        label->setPixmap(QPixmap(QString::fromUtf8("WY1.png")));
         label->setScaledContents(true);
         zoomIn = new QPushButton(WY_One);
         zoomIn->setObjectName(QStringLiteral("zoomIn"));

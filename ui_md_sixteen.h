@@ -35,7 +35,7 @@ public:
         label = new QLabel(MD_Sixteen);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(0, 0, 700, 400));
-        label->setPixmap(QPixmap(QString::fromUtf8("MD16withoutTags.png")));
+        label->setPixmap(QPixmap(QString::fromUtf8("MD16.png")));
         label->setScaledContents(true);
         zoomIn = new QPushButton(MD_Sixteen);
         zoomIn->setObjectName(QStringLiteral("zoomIn"));

@@ -119,7 +119,9 @@ public:
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         label = new QLabel(centralwidget);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(100, 100, 300, 250));
+        label->setGeometry(QRect(0, 0, 500, 450));
+        label->setPixmap(QPixmap(QString::fromUtf8("Home_Page.png")));
+        label->setScaledContents(true);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QStringLiteral("menubar"));
@@ -204,7 +206,7 @@ public:
         actionWY6->setText(QApplication::translate("MainWindow", "6", Q_NULLPTR));
         actionWY7->setText(QApplication::translate("MainWindow", "7", Q_NULLPTR));
         actionWY8->setText(QApplication::translate("MainWindow", "8", Q_NULLPTR));
-        label->setText(QApplication::translate("MainWindow", "Welcome to Ungerrymandered Software", Q_NULLPTR));
+        label->setText(QString());
         menuSelect_State->setTitle(QApplication::translate("MainWindow", "Select State", Q_NULLPTR));
         menuMaryland->setTitle(QApplication::translate("MainWindow", "Maryland", Q_NULLPTR));
         menuNorth_Carolina->setTitle(QApplication::translate("MainWindow", "North Carolina", Q_NULLPTR));
