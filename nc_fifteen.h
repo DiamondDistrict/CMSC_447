@@ -1,54 +1,54 @@
 /*******************************************************
- * File:       MD_Fourteen.h
+ * File:       NC_Fifteen.h
  * Product:    Un-Gerrymandered Software
  * Written By: Diamond Districting
  * Date:       12/2/2017
  * Course:     CMSC 447
  * Email:      diamonddistricting@gmail.com
  *
- * This class displays the sub window for Maryland with
- * fourteen districts.
+ * This class displays the sub window for North Carolina
+ * with fifteen districts.
  *
  *******************************************************/
-#ifndef MD_FOURTEEN_H
-#define MD_FOURTEEN_H
+#ifndef NC_FIFTEEN_H
+#define NC_FIFTEEN_H
 
 #include <QDialog>
 
 namespace Ui {
-class MD_Fourteen;
+class NC_Fifteen;
 }
 
-class MD_Fourteen : public QDialog
+class NC_Fifteen : public QDialog
 {
     Q_OBJECT
 
 public:
 
     /***************************************************
-     * Name: MD_Fourteen
+     * Name: NC_Fifteen
      *      Standard Constructor
      * Precondition:
      *      Passes in a pointer object of QWidget.
      * Postconditions:
      *      Sets up the user interface.
      ***************************************************/
-    explicit MD_Fourteen(QWidget *parent = 0);
+    explicit NC_Fifteen(QWidget *parent = 0);
 
     /***************************************************
-     * Name: ~MD_Fourteen
+     * Name: ~NC_Fifteen
      *      Destructor
      * Precondition:
      *      None.
      * Postconditions:
      *      Deletes user interface pointer.
      ***************************************************/
-    ~MD_Fourteen();
+    ~NC_Fifteen();
 
 private:
 
     // Declared pointer for user interface
-    Ui::MD_Fourteen *ui;
+    Ui::NC_Fifteen *ui;
 };
 
-#endif // MD_FOURTEEN_H
+#endif // NC_FIFTEEN_H

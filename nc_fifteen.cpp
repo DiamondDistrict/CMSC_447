@@ -1,15 +1,15 @@
-#include "md_two.h"
-#include "ui_md_two.h"
+#include "nc_fifteen.h"
+#include "ui_nc_fifteen.h"
 
-MD_Two::MD_Two(QWidget *parent) :
+NC_Fifteen::NC_Fifteen(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::MD_Two)
+    ui(new Ui::NC_Fifteen)
 {
     // Pointer that points to the setup for the user interface
     ui->setupUi(this);
 }
 
-MD_Two::~MD_Two()
+NC_Fifteen::~NC_Fifteen()
 {
     // Deletes the pointer
     delete ui;

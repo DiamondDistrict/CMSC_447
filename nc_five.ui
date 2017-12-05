@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MD_Sixteen</class>
- <widget class="QDialog" name="MD_Sixteen">
+ <class>NC_Five</class>
+ <widget class="QDialog" name="NC_Five">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -26,7 +26,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>MD16.png</pixmap>
+    <pixmap>nc05.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -42,7 +42,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>+ </string>
+    <string>+</string>
    </property>
   </widget>
   <widget class="QPushButton" name="zoomOut">
@@ -64,7 +64,7 @@
   <connection>
    <sender>zoomIn</sender>
    <signal>pressed()</signal>
-   <receiver>MD_Sixteen</receiver>
+   <receiver>NC_Five</receiver>
    <slot>showMaximized()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -80,7 +80,7 @@
   <connection>
    <sender>zoomOut</sender>
    <signal>pressed()</signal>
-   <receiver>MD_Sixteen</receiver>
+   <receiver>NC_Five</receiver>
    <slot>showNormal()</slot>
    <hints>
     <hint type="sourcelabel">
